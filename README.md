@@ -11,7 +11,7 @@ The data set has been downloaded and unziped in the working directory.
 
 (C) Load the training and test data using the "meanSD" as the row index.  Frankly, I don't know the difference between the training and the test.  The resulting data set will be (subject, activity, mean/std values).
 
-(D) Merge the training and test data sets into one called "trainTestSet" and give column names as ("subject", "activity", feature names).
+(D) Merge the training and test data sets into one called "trainTestSet" and give column names as ("subject", "activity", feature names). The "subject" is the 30 participants or people's ID's.
 
 (E) Turn activity and subject into factors so that they can be sorted nicely later.  "melt" function will set the data into (subject,activity,variable name, variable value).  Take the melted data and get the mean for each variable.
 
